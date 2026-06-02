@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "worldtimer",
+  "version": "${version}",
+  "name": "World Timer",
+  "description": "Calculates and displays the time spent in the world.",
+  "authors": [
+    "Developer"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.example.timer.TimerMod"
+    ],
+    "client": [
+      "net.example.timer.client.TimerModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": ">=26.1.2",
+    "java": ">=21"
+  }
+}
